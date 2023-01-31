@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/arunesh/node-play/issues"
   },
-  "homepage": "https://github.com/arunesh/node-play#readme"
+  "homepage": "https://github.com/arunesh/node-play#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
