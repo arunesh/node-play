@@ -1,8 +1,10 @@
 "use strict";
 
-var _react = _interopRequireDefault(require("react"));
+var _App = _interopRequireDefault(require("./App.js"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-function component() {
-  return /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("h1", null, " Hello, World! "));
-}
-document.body.appendChild(component());
+//import React from "react";
+//import ReactDOM from "react-dom";
+
+var container = document.getElementById('root');
+var root = ReactDOM.createRoot(container);
+root.render( /*#__PURE__*/React.createElement(_App["default"], null));
