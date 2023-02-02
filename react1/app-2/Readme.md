@@ -4,7 +4,7 @@ Ignore the webpack.config.js.
 
 - Install babel/env and babel/preset-react to help babel convert JSX and ES6 code.
  
-\# browserify-css to bundle css, such as App.css
+browserify-css to bundle css, such as App.css:
 ```
  npm install --save-dev browserify-css
  npm install --save-dev @babel/preset-react
